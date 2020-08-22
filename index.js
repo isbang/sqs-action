@@ -15,7 +15,7 @@ async function run() {
             if (err) {
                 throw err;
             } else {
-                console.log(`resp ${resp}`);
+                console.log(`resp ${JSON.stringify(resp, null, 2)}`);
             }
         })
     } catch (error) {
