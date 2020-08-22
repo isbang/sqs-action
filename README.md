@@ -21,7 +21,7 @@ This action send message to AWS SQS.
     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     aws-region: us-east-2
 
-- uses: isbang/sqs-action@v0.1.0
+- uses: isbang/sqs-action@v0.1.1
   with:
     sqs-url: https://sqs.us-east-2.amazonaws.com/somewhere
     message: 'message body here'
