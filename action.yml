@@ -8,8 +8,10 @@ inputs:
     description: 'AWS SQS url to send message'
     required: true
   message:
-    description: 'message boty to send'
+    description: 'message body to send'
     required: true
+  message-attributes:
+    description: 'message attributes to sent'
 runs:
   using: 'node12'
   main: 'index.js'
