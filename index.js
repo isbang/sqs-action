@@ -20,7 +20,7 @@ async function run() {
       if (err) {
         throw err;
       } else {
-        console.log(`resp ${JSON.stringify(resp, null, 2)}`);
+        console.log(`Message successfully sent`);
       }
     });
   } catch (error) {
