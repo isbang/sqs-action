@@ -13,5 +13,5 @@ inputs:
   message-attributes:
     description: 'message attributes to sent'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
