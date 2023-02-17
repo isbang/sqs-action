@@ -18,6 +18,7 @@ async function run() {
     const sqs = new aws.SQS();
     sqs.sendMessage(params, (err, resp) => {
       if (err) {
+        console.log("Error", err);
         throw err;
       } else {
         console.log(`Message successfully sent`);
